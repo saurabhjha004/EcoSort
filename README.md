@@ -20,29 +20,18 @@ EcoSort uses a modified version of the [Supply Chain Greenhouse Gas Emission Fac
 - **Backend**: Python with Pandas for data handling and analysis.
 - **Deployment**: Hosted on [Streamlit Cloud](https://streamlit.io/cloud).
 
-## 🚀 Getting Started
+## Steps to Run Locally
 
-### Prerequisites
-- Python 3.7 or higher installed on your machine.
-- Install required libraries using the following command:
-  ```bash
-  pip install -r requirements.txt
-Steps to Run Locally
-Clone the repository:
-bash
-Copy code
-git clone <repository_url>
-Navigate to the project directory:
-bash
-Copy code
-cd eco-sort
+1. **Clone the repository**:  
+   ```bash
+   git clone <repository_url>
+   cd eco-sort
 Ensure the dataset (products.csv) is in the root directory.
-Run the application using Streamlit:
-bash
-Copy code
-streamlit run app.py
-Open the application in your browser at http://localhost:8501/.
-📂 Project Structure
+Run on Streamlit 
+  ```bash
+  streamlit run app.py
+
+**Project Structure**
 plaintext
 Copy code
 eco-sort/
@@ -51,28 +40,12 @@ eco-sort/
 ├── products.csv           # Dataset used for product emissions
 ├── requirements.txt       # List of required Python libraries
 ├── README.md              # Project documentation
-🌍 Live Demo
-Explore the live application: EcoSort - Sustainable Shopping.
 
-🎯 Future Enhancements
+**Future Enhancements**
 Dynamic Data Integration: Automatically fetch product data from vendors in real time.
 Advanced Carbon Models: Incorporate machine learning for accurate emission predictions.
 Personalized Recommendations: Suggest eco-friendly products based on user preferences.
 Educational Resources: Provide tips and resources for adopting sustainable shopping habits.
-🤝 Contribution
-We welcome contributions to improve EcoSort! Feel free to open issues or submit pull requests.
 
-📜 License
+ License
 This project is licensed under the MIT License.
-
-Let’s make sustainable shopping simple and accessible for everyone! Together, we can reduce our carbon footprint. 🌿
-
-csharp
-Copy code
-
-You can copy and paste this directly into your `README.md` file on GitHub. This will maintain all the proper markdown formatting, with bold text, emojis, and links.
-
-
-
-
-
