@@ -1,29 +1,32 @@
-EcoSort - Sustainable Shopping 🌿
-Deployed Application: EcoSort - Sustainable Shopping
+# EcoSort - Sustainable Shopping 🌿
 
-📖 Overview
-EcoSort is a user-friendly platform that empowers consumers to shop sustainably by providing insights into the carbon emissions of various products. By highlighting low-emission products and offering intuitive filtering options, EcoSort makes sustainable shopping effortless and impactful.
+**Deployed Application**: [EcoSort - Sustainable Shopping](https://eco-sort.streamlit.app/)
 
-✨ Features
-Filter by Material Type: Narrow your search by selecting specific product materials.
-Weight-Based Filtering: Refine results by selecting product weights for more precise recommendations.
-Detailed Carbon Metrics: View production, logistics, and total emissions for each product.
-Color-Coded Results: Easily identify low, average, and high-emission products with intuitive color indicators.
-Average Emission Comparison: Compare product emissions against the average for the selected category.
-📊 Dataset
-EcoSort uses a modified version of the Supply Chain Greenhouse Gas Emission Factors (v1.3) by NAICS-6. The dataset has been adapted to meet the application's needs while maintaining data integrity.
+## 📖 Overview
+**EcoSort** is a user-friendly platform that empowers consumers to shop sustainably by providing insights into the carbon emissions of various products. By highlighting low-emission products and offering intuitive filtering options, EcoSort makes sustainable shopping effortless and impactful.
 
-🛠️ Technical Stack
-Frontend: Streamlit for a clean and interactive user interface.
-Backend: Python with Pandas for data handling and analysis.
-Deployment: Hosted on Streamlit Cloud.
-🚀 Getting Started
-Prerequisites
-Python 3.7 or higher installed on your machine.
-Install required libraries using the following command:
-bash
-Copy code
-pip install -r requirements.txt
+## ✨ Features
+- **Filter by Material Type**: Narrow your search by selecting specific product materials.
+- **Weight-Based Filtering**: Refine results by selecting product weights for more precise recommendations.
+- **Detailed Carbon Metrics**: View production, logistics, and total emissions for each product.
+- **Color-Coded Results**: Easily identify low, average, and high-emission products with intuitive color indicators.
+- **Average Emission Comparison**: Compare product emissions against the average for the selected category.
+
+## 📊 Dataset
+EcoSort uses a modified version of the [Supply Chain Greenhouse Gas Emission Factors (v1.3) by NAICS-6](https://catalog.data.gov/dataset/supply-chain-greenhouse-gas-emission-factors-v1-3-by-naics-6). The dataset has been adapted to meet the application's needs while maintaining data integrity.
+
+## 🛠️ Technical Stack
+- **Frontend**: [Streamlit](https://streamlit.io/) for a clean and interactive user interface.
+- **Backend**: Python with Pandas for data handling and analysis.
+- **Deployment**: Hosted on [Streamlit Cloud](https://streamlit.io/cloud).
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.7 or higher installed on your machine.
+- Install required libraries using the following command:
+  ```bash
+  pip install -r requirements.txt
 Steps to Run Locally
 Clone the repository:
 bash
@@ -63,3 +66,13 @@ We welcome contributions to improve EcoSort! Feel free to open issues or submit 
 This project is licensed under the MIT License.
 
 Let’s make sustainable shopping simple and accessible for everyone! Together, we can reduce our carbon footprint. 🌿
+
+csharp
+Copy code
+
+You can copy and paste this directly into your `README.md` file on GitHub. This will maintain all the proper markdown formatting, with bold text, emojis, and links.
+
+
+
+
+
