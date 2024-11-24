@@ -28,16 +28,16 @@ Copy code
 git clone https://github.com/saurabhjha004/EcoSort
 Navigate to the project directory:
 
-bash
-Copy code
+```bash
 cd eco-sort
+```
 Ensure the dataset (products.csv) is in the root directory.
 
 Run the application using Streamlit:
 
-bash
-Copy code
+```bash
 streamlit run app.py
+```
 Open the application in your browser at http://localhost:8501/.
 
 Project Structure
