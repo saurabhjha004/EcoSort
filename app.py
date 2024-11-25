@@ -60,7 +60,7 @@ if st.sidebar.button("Show Top Products"):
 
             # Set box color based on the difference
             if emission_difference < 0:
-                box_color = "#d4edda"  # Green for below average
+                box_color = "#90EE90"  # Green for below average
             elif emission_difference == 0:
                 box_color = "#fff3cd"  # Yellow for average
             else:
