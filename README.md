@@ -40,19 +40,12 @@ streamlit run app.py
 ```
 Open the application in your browser at http://localhost:8501/.
 
-Project Structure
-plaintext
-Copy code
-eco-sort/
-├── app.py                 # Main application script
-├── main.py                # Backend functions for emissions calculations
-├── products.csv           # Dataset used for product emissions
-├── requirements.txt       # List of required Python libraries
-├── README.md              # Project documentation
-Future Enhancements
-Dynamic Data Integration: Automatically fetch product data from vendors in real time.
-Advanced Carbon Models: Incorporate machine learning for more accurate emission predictions.
-Personalized Recommendations: Suggest eco-friendly products based on user preferences.
-Educational Resources: Provide tips and resources for adopting sustainable shopping habits.
-License
-This project is licensed under the MIT License.
+
+### **Future Enhancements**
+- **Dynamic Data Integration**: Automatically fetch product data from vendors in real time.
+- **Advanced Carbon Models**: Incorporate machine learning for more accurate emission predictions.
+- **Personalized Recommendations**: Suggest eco-friendly products based on user preferences.
+- **Educational Resources**: Provide tips and resources for adopting sustainable shopping habits.
+
+### **License**
+This project is licensed under the **MIT License**.
