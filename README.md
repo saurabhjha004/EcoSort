@@ -20,18 +20,27 @@ EcoSort uses a modified version of the [Supply Chain Greenhouse Gas Emission Fac
 - **Backend**: Python with Pandas for data handling and analysis.
 - **Deployment**: Hosted on [Streamlit Cloud](https://streamlit.io/cloud).
 
-## Steps to Run Locally
+Steps to Run Locally
+Clone the repository:
 
-1. **Clone the repository**:  
-   ```bash
-   git clone <repository_url>
-   cd eco-sort
+bash
+Copy code
+git clone https://github.com/saurabhjha004/EcoSort
+Navigate to the project directory:
+
+```bash
+cd eco-sort
+```
 Ensure the dataset (products.csv) is in the root directory.
-Run on Streamlit 
-  ```bash
-  streamlit run app.py
 
-**Project Structure**
+Run the application using Streamlit:
+
+```bash
+streamlit run app.py
+```
+Open the application in your browser at http://localhost:8501/.
+
+Project Structure
 plaintext
 Copy code
 eco-sort/
@@ -40,12 +49,10 @@ eco-sort/
 ├── products.csv           # Dataset used for product emissions
 ├── requirements.txt       # List of required Python libraries
 ├── README.md              # Project documentation
-
-**Future Enhancements**
+Future Enhancements
 Dynamic Data Integration: Automatically fetch product data from vendors in real time.
-Advanced Carbon Models: Incorporate machine learning for accurate emission predictions.
+Advanced Carbon Models: Incorporate machine learning for more accurate emission predictions.
 Personalized Recommendations: Suggest eco-friendly products based on user preferences.
 Educational Resources: Provide tips and resources for adopting sustainable shopping habits.
-
- License
+License
 This project is licensed under the MIT License.
